@@ -3,7 +3,7 @@
  *
  *  main source file which is used to run the game, get user input and follow accordingly.
  *
- *  @author Itay Keren (itaykeren)
+ *  @author Itay  (itaykeren)
  *  @author Rotem Bar (rotembar)
  *
  */
