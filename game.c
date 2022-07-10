@@ -92,9 +92,9 @@ cell** generate_empty_board(){
 /* copies a source sudoku board to a new identical sudoku board */
 void copy_board(cell** source_board, cell** new_board){
     int i, j;
-    int N = blockRows * blockCols;
-    for (i  =0; i < N; i++) {
-        for (j = 0; j < N; j++){
+    int M = blockRows * blockCols;
+    for (i  =0; i < M; i++) {
+        for (j = 0; j < M; j++){
             new_board[i][j].number = source_board[i][j].number;
             new_board[i][j].asterisk = source_board[i][j].asterisk;
             new_board[i][j].isFixed = source_board[i][j].isFixed;
