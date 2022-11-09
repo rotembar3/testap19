@@ -2,14 +2,16 @@
 id: nlly8
 name: Rotem
 file_version: 1.0.2
-app_version: 0.9.1-5
+app_version: 0.9.9-5
 file_blobs:
-  game.c: 7bd2264a2d77a8b20b36c925ba1c9e20f10805ab
+  game.c: dc24e32d2d5827282030fdb5a3e764b0a2eded46
 ---
 
 ### fd
 
 <br/>
+
+
 
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 game.c
@@ -19,9 +21,9 @@ file_blobs:
 ⬜ 92     /* copies a source sudoku board to a new identical sudoku board */
 🟩 93     void copy_board(cell** source_board, cell** new_board){
 🟩 94         int i, j;
-🟩 95         int N = blockRows * blockCols;
-🟩 96         for (i  =0; i < N; i++) {
-🟩 97             for (j = 0; j < N; j++){
+🟩 95         int M = blockRows * blockCols;
+🟩 96         for (i  =0; i < M; i++) {
+🟩 97             for (j = 0; j < M; j++){
 🟩 98                 new_board[i][j].number = source_board[i][j].number;
 🟩 99                 new_board[i][j].asterisk = source_board[i][j].asterisk;
 🟩 100                new_board[i][j].isFixed = source_board[i][j].isFixed;
